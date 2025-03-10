@@ -23,6 +23,15 @@ conda activate venv
 pip install -r requirements.txt
 ```
 
+4. **Create .env file:**
+
+create a .env file to store the api keys.
+
+```bash
+OPENAI_API_KEY=<openai_api_key>
+GOOGLE_API_KEY=<google_api_key>
+```
+
 ## ▶️ Running the App
 
 Once the environment is set up and dependencies are installed, run the app using Streamlit:
@@ -49,6 +58,10 @@ This will launch a local server, and you can interact with the app through your 
 ├── requirements.txt      
 └── README.md            
 ```
+## 📂 Project Structure
+
+![Project Structure](pdf-reader-project-structure.png)
+
 
 ## 📝 Usage
 
